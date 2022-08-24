@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+
+<head>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<div id="div_print1" style="margin-top:5px;"> 
+<div id="receipt">
+  <img id="logo" src="#APP_FILES#eastern softeare systems logo.jpg" alt="Logo"/>
+  <div class="company-name">Eastern Software Systems </div>
+  <div id="docType"></div>
+  <div id="companySubTitle"></div>
+  <div id="location"></div>
+  <div id="receiptDate"></div>
+  <div class="barcode" id="barcode"></div>
+
+  <div class="receipt-details">
+    <div class="left-side">
+        <!-- <div id="servedBy"></div> -->
+        <div id="servedByDesc">Prepared By: 
+            <div id="servedBy"></div>
+        </div>
+        <div id="customerDesc">Customer Name: 
+            <div id="customerName"></div>
+        </div>
+
+    </div>
+    <div class="right-side">
+        <div id="orderDesc">Invoice #
+            <div id="orderNo"></div>
+        </div>
+  
+
+            <div id="paymentType"></div>
+      
+       
+    </div>
+  </div>
+
+  <table class="rwd-table">
+    <tr>
+      <th>Qty</th>
+      <th>Item Description</th>
+      <th class="text-right">Price</th>
+      <th class="text-right">Total</th>
+    </tr>
+    <tbody id="myTable"></tbody>
+    
+  </table>
+
+
+
+<div id="totals" class="flex">
+    <div class="qrcode" id="qrcode"></div>
+    <div class="totals">
+      <div class="section">
+        <div class="row">
+          <div class="col1">Subtotal</div>
+          <div id ="sub_total" class="col3">0</div>
+        </div>
+        <div class="row">
+          <div class="col1" id="VAT-percent"></div>
+          <div class="col2">VAT + Covid</div>
+          <div class="col3" id="taxes"></div>
+        </div>
+        <div class="row">
+          <div class="col1" id="discount-percent"></div>
+          <div class="col2">Discount</div>
+          <div class="col3" id="discount-Val"></div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="row">
+          <div class="col1 full-total">Grand Total</div>
+          <div class="col2"></div>
+          <div id="grand-total" class="col3 full-total-num">0</div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="row">
+           <div class="col1">Amount Paid</div>
+           <div class="col2"></div>
+           <div class="col3" id="amountPaid">0</div>
+        </div>
+        <div class="row">
+          <div class="col1">Change</div>
+          <div class="col2"></div>
+          <div class="col3" id="remaining">0</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="policy"></div>
+  
+</div>
+</div>
+<input id="printButton" type="button1" value="Print" class="button button 1" />
+<script type="module"  src="./index.js" ></script>
+<script src="./JsBarcode.all.min.js"></script>
+
+<script src=".//qrcode.min.js"></script>
+</body>
+</html>

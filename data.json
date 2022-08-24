@@ -1,0 +1,93 @@
+{
+    "header": {
+        "CALCULATION_TYPE": "Inclusive",
+        "FLAG": "INVOICE",
+        "COMPANY": "EAST INDIA SUPERMARKET",
+        "ADD1": "EAST LEGON 3455",
+        "ADD2": "SHIYASHI",
+        "EMAIL": "SANTOSHX20@GMAIL.COM",
+        "CONTACT_NO": "0242511312",
+        "USER_NAME": "01",
+        "TILL_NO": "1",
+        "INVOICE_NO": "71",
+        "INVOICE_DATE": "23-08-2022",
+        "CURRENCY": "Ghc",
+        "EXCHANGE_RATE": "1",
+        "CLIENT_NAME": "JOHN",
+        "DISCOUNT": "1",
+        "SUB_TOTAL": "40",
+        "INV_VAT": "9",
+        "INV_AMOUNT": "40",
+        "PAID_AMOUNT": "40",
+        "CHANGEAMT": "1",
+        "POLICY": "<h1>Thank You and Good-Bye!</h1>\\n\\nThank you for patronising from us. Till we meet again 😊"
+    },
+    "item_list": [
+        {
+            "ITMCODE": "0012",
+            "ITEMDESC": "Mutter Paneer",
+            "PRICE": "40",
+            "QUANTITY": "1",
+            "ITMDISCOUNT": "0",
+            "LINE_VALUE": "40",
+            "EXPIRE": " ",
+            "ITEM_CATEGORY": "FG",
+            "TAXRATE": 19.2
+        },
+        {
+            "ITMCODE": "0012",
+            "ITEMDESC": "Mutter Paneer",
+            "PRICE": "40",
+            "QUANTITY": "1",
+            "ITMDISCOUNT": "0",
+            "LINE_VALUE": "40",
+            "EXPIRE": " ",
+            "ITEM_CATEGORY": "FG",
+            "TAXRATE": 19.2
+        },
+        {
+            "ITMCODE": "0012",
+            "ITEMDESC": "Mutter Paneer",
+            "PRICE": "40",
+            "QUANTITY": "1",
+            "ITMDISCOUNT": "0",
+            "LINE_VALUE": "40",
+            "EXPIRE": " ",
+            "ITEM_CATEGORY": "FG",
+            "TAXRATE": 19.2
+        },
+        {
+            "ITMCODE": "0012",
+            "ITEMDESC": "Mutter Paneer",
+            "PRICE": "40",
+            "QUANTITY": "1",
+            "ITMDISCOUNT": "0",
+            "LINE_VALUE": "40",
+            "EXPIRE": " ",
+            "ITEM_CATEGORY": "FG",
+            "TAXRATE": 19.2
+        },
+        {
+            "ITMCODE": "0012",
+            "ITEMDESC": "Mutter Paneer",
+            "PRICE": "40",
+            "QUANTITY": "1",
+            "ITMDISCOUNT": "0",
+            "LINE_VALUE": "40",
+            "EXPIRE": " ",
+            "ITEM_CATEGORY": "FG",
+            "TAXRATE": 19.2
+        },
+        {
+            "ITMCODE": "0012",
+            "ITEMDESC": "Mutter Paneer",
+            "PRICE": "40",
+            "QUANTITY": "2",
+            "ITMDISCOUNT": "0",
+            "LINE_VALUE": "80",
+            "EXPIRE": " ",
+            "ITEM_CATEGORY": "FG",
+            "TAXRATE": 19.2
+        }
+    ]
+}
